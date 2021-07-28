@@ -32,6 +32,8 @@
 
             <div class="row align-items-center row-cols-lg-2 row-cols-1 px-lg-0 px-2">
 
+                <!-- cover Details -->
+
                 <div class="col font-poppin">
                     <p class="fst-normal text-white-50">286cc liquid-cooled duel-cylinder engine</p>
 
@@ -48,12 +50,52 @@
                         motorcycle, but geared for comfortable cruising at highway speeds.
                     </p>
 
-                    <button class="btn mt-4 fst-normal text-light px-4 py-2 bg-button">Purchase</button>
+                    <!-- Button trigger with modal -->
 
+                    <button type="button" class="btn mt-4 fst-normal text-light px-4 py-2 bg-button"
+                        data-bs-toggle="modal" data-bs-target="#staticBackdrop">Purchase</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header bg-success">
+                                    <h1 class="modal-title fs-2 fw-bold text-white" id="staticBackdropLabel">
+                                        Honda CBR 300R</h1>
+                                    <button type="button" class="btn-close bg-white" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h3 class="fw-bold text-danger">MRP: 4,79,900 TK</h3>
+
+                                    <h4>Standard Features:</h4>
+                                    <p class="fst-normal">286cc liquid-cooled single-cylinder engine, Low seat height,
+                                        Programmed Fuel
+                                        Injection, Analog/Digital Instrumentation.
+
+                                    </p>
+
+
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Understood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- modal end -->
 
                 </div>
 
-                <div class="col d-flex justify-content-center ">
+                <!-- cover photo -->
+
+                <div class="col mt-lg-0 mt-4 d-flex justify-content-center ">
                     <img class="img-fluid" src="images/header-bike.png" alt="">
 
 
