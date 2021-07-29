@@ -9,6 +9,10 @@
 
 /********* Utilities/common css  ***********/
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .bg-header {
     background-color: #264653;
     
@@ -23,5 +27,14 @@
 .gray-scale{
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
+
+}
+
+.fa-star{
+    color:#E77C40;
+}
+
+.span-txt{
+    color: #E76F51;
 
 }
