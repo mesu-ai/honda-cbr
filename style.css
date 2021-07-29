@@ -19,3 +19,9 @@
     background-color: #E76F51;
 
 }
+
+.gray-scale{
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+
+}
