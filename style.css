@@ -43,6 +43,10 @@ footer{
 
 }
 
-.bg-tracker{
+.bg-tracker-title{
     background-color: tomato;
+}
+
+.bg-tracker-body{
+    background-color: rgb(197, 223, 228);
 }
